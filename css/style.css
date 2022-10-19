@@ -1,0 +1,70 @@
+/* ***********GENERICS************ */
+
+/*reset style css*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f2f7f5;
+}
+
+/* ***********UTILITIES************ */
+.w-big-numbers {
+    color: #00473e;
+    font-size: 60px;
+}
+
+.w-normal-numbers {
+    color: #00473e;
+    font-size: 35px;
+}
+
+.w-small-numbers {
+    color: #00473e;
+    font-size: 20px;
+}
+
+.m-x {
+    margin: 0 10px;
+}
+
+/* ***********CONTENT************ */
+
+
+.header {    
+    height: 100px;
+    padding: 20px;
+    background-color: #00473e;
+}
+
+.header h1 {
+    color: #faae2b;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.header button {
+    font-weight: 900;
+    background-color: #faae2b!important;
+    color: #00473e;
+}
+
+.header button:hover {
+    cursor: pointer;
+    transition: 600ms;
+    transform: scale(110%)
+}
+
+.header button:active {
+    transition: 100ms;
+    filter: brightness(50%);
+}
+
+.content{
+    border: 2px solid #00473e;
+}
