@@ -88,7 +88,7 @@ button.addEventListener('click', function() {
 // --------FUNZIONI--------
 
 function getNumbersByUser() {
-    const userInput = getElementById('userInput')
+    const userInput = document.getElementById('userInput')
     const array = [];
     for(let i=0; i<5; i++)
         array[i] = parseInt(userInput);
